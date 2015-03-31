@@ -2,4 +2,4 @@
 docker build -t busybones-builder builder
 docker run --rm busybones-builder cat busybox > busybox
 chmod +x busybox
-docker build -t busybones .
+echo "Build complete, 'docker build .' to build final container"
